@@ -1,0 +1,16 @@
+name=input("Digite seu nome: ")
+#telefone=input("digite seu numero de telefone: ")
+
+#print(help(str))
+
+#resultado=len(name)
+#result=name.find("a")
+#result=name.rfind("a")
+name=name.capitalize()
+#name=name.upper()
+#name=name.lower()
+#result=name.isdigit()
+#result=name.isalpha()
+#result=telefone.count("-")
+#telefone=telefone.replace("-","a")
+print(name)
