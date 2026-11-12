@@ -1,5 +1,5 @@
 comidas=[]
-preço=[]
+preços=[]
 total=0
 
 while True:
@@ -7,17 +7,17 @@ while True:
     if comida.upper() == "Q":
         break
     else:
-        preços= float(input(F"digite o preço da {comida} : $"))
+        preço= float(input(F"digite o preço da {comida} : $"))
         comidas.append(comida)
-        preço.append(preços)
+        preços.append(preço)
 
 print("----------SEU CARRINHO---------")       
 
 for comida in comidas:
     print(comida,end=" ")
 
-for preços in preço:
-    total +=preços
+for preço in preços:
+    total +=preço
 
 print()
 print(f"seu total é : ${total: .2f} ")
