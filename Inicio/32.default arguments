@@ -1,0 +1,18 @@
+#def net_price(preço_lista,desconto=0,taxa=0.05):
+ #   return preço_lista * (1 - desconto) * (1 + taxa)
+
+
+#print(net_price(500, 0, 0.05))
+#print(net_price(500,0.1))
+#print(net_price(500,0.1 ,0))
+
+import time 
+
+def contagem(final , começo=0):
+    for x in range(começo , final+1):
+        print(x)
+        time.sleep(1)
+    print("FEITO")
+
+contagem(10)        
+     
